@@ -5,6 +5,24 @@ body, html {
 	color: #777;
 	width: 100% !important;
 	height: 100% !important;
+	
+	display: table;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	color: #ffffff;
+	background: url(../img/website.mp4) no-repeat center top;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h2 {
 	margin: 0 0 20px 0;
@@ -129,7 +147,7 @@ hr {
 .btn-default {
 	text-transform: uppercase;
 	color: #555;
-	background-color: transparent;
+	background-color: white;
 	border-color: #777;
 	padding: 14px 20px;
 	margin: 0;
@@ -138,8 +156,8 @@ hr {
 	margin-top: 20px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #fff;
-	background-color: #121d1f;
+	color: #000000;
+	background-color: #FFFFFF;
 	border-color: #121d1f;
 }
 /* Header Section */
@@ -148,8 +166,8 @@ hr {
 	width: 100%;
 	padding: 0;
 	text-align: center;
-	color: #333;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	color: #ffffff;
+	background: url(../img/website.mp4) no-repeat center top;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -172,7 +190,17 @@ hr {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #333;
+	color: #ffffff;
+}
+.intro hr {
+	height: 1px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
 }
 .intro p {
 	font-size: 20px;
@@ -186,10 +214,31 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 120px 0;
+	
+}
+
+#about h2 {
+	margin: 0 0 20px 0;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 30px;
+}
+#about hr {
+	height: 1px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
 }
 #about .about-text {
 	margin-left: 10px;
 	text-align: center;
+	color: #ffffff;
 }
 #about img {
 	border-radius: 50%;
@@ -333,6 +382,24 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
+}
+#contact hr {
+	height: 1px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
+}
+#contact h2 {
+	margin: 0 0 20px 0;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 30px;
 }
 #contact h3 {
 	padding-top: 20px;
