@@ -164,7 +164,9 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
+/* 
 	padding-bottom: 10%;
+ */
 	text-align: center;
 	color: #ffffff;
 	background: url(../img/website.mp4) no-repeat center top;
